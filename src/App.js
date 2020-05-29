@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.sass';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             </div>
         </div>
       </header>
+      <Footer />
     </div>
   );
 }
