@@ -1,13 +1,24 @@
-.footer
-    text-align: left
-    border: 2px solid green
-    background-color: blue
+$v-text: blueviolet
+$size-ft: 18.5px
+.Footer
+    border: 2px solid blue
     .container
-        border: 2px solid green 
-        background-color: green     
+        border: 2px solid green     
         .item-left
             align-items: left
             text-align: left
+            .violet-text
+                color: $v-text
+        .otstup
+            margin-bottom: 20px;
+        .size-ft
+            font-size: $size-ft
         .item-right
             align-items: right
             text-align: right
+    .violet-back
+        background-color: #3d1659
+        padding-top: 15px
+        padding-bottom: 10px
+        color: white
+        font-size: $size-ft
